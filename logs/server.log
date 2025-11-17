@@ -1,21 +1,9 @@
 INFO:     Will watch for changes in these directories: ['/home/workspace']
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
-INFO:     Started reloader process [300] using StatReload
+INFO:     Started reloader process [349] using StatReload
 /home/workspace/database.py:25: UserWarning: You appear to be connected to a CosmosDB cluster. For more information regarding feature compatibility and support please visit https://www.mongodb.com/supportability/cosmosdb
   _client = MongoClient(database_url)
-INFO:     Started server process [302]
+INFO:     Started server process [351]
 INFO:     Waiting for application startup.
 INFO:     Application startup complete.
-INFO:     172.20.0.1:54430 - "HEAD / HTTP/1.1" 405 Method Not Allowed
-INFO:     172.20.0.1:55942 - "GET /projects?featured=true HTTP/1.1" 200 OK
-INFO:     172.20.0.1:55922 - "GET /blog HTTP/1.1" 200 OK
-INFO:     172.20.0.1:55938 - "GET /certifications HTTP/1.1" 200 OK
-INFO:     172.20.0.1:55942 - "GET /projects?featured=true HTTP/1.1" 200 OK
-INFO:     172.20.0.1:55922 - "GET /blog HTTP/1.1" 200 OK
-INFO:     172.20.0.1:55938 - "GET /certifications HTTP/1.1" 200 OK
-INFO:     172.20.0.1:55952 - "GET /certifications HTTP/1.1" 200 OK
-INFO:     172.20.0.1:55952 - "GET /projects?featured=true HTTP/1.1" 200 OK
-INFO:     172.20.0.1:39372 - "GET /blog HTTP/1.1" 200 OK
-INFO:     172.20.0.1:39374 - "GET /certifications HTTP/1.1" 200 OK
-INFO:     172.20.0.1:55952 - "GET /projects?featured=true HTTP/1.1" 200 OK
-INFO:     172.20.0.1:39372 - "GET /blog HTTP/1.1" 200 OK
+INFO:     172.20.0.1:59210 - "HEAD / HTTP/1.1" 405 Method Not Allowed
